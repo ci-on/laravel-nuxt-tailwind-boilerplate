@@ -5,7 +5,7 @@ export default {
   },
   axios: {
     baseURL: process.env.NUXT_ENV_BASE_URL,
-    credentials: true, // this says that in the request the httponly cookie should be sent
+    credentials: true, // this means that in the request the httponly cookie should be sent
   },
   auth: {
     redirect: {

@@ -1,0 +1,20 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "vetur.validation.template": false,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.ts": "prettier-tslint",
+}
