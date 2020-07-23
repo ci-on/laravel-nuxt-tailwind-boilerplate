@@ -1,17 +1,11 @@
 <?php
 
-use App\User;
+use App\Http\Resources\User as UserResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-if (config('app.env') === 'local') { // workaround for sanctum not working with localhost domains
+Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/user', function (Request $request) {
-        return User::where('email', 'john@gmail.com')->first();
+        return new UserResource($request->user());
     });
-} else {
-    Route::group(['middleware' => 'auth:sanctum'], function () {
-        Route::get('/user', function (Request $request) {
-            return $request->user();
-        });
-    });
-}
+});
