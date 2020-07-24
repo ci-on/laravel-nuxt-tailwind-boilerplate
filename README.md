@@ -2,6 +2,7 @@
 
 [![StyleCI](https://github.styleci.io/repos/281696122/shield?branch=master)](https://github.styleci.io/repos/281696122)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ci-on/laravel-nuxt-tailwind-boilerplate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ci-on/laravel-nuxt-tailwind-boilerplate/?branch=master)
+![Prettier Style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 [![License](https://img.shields.io/github/license/ci-on/laravel-nuxt-tailwind-boilerplate.svg?style=flat-square)](https://github.com/ci-on/laravel-nuxt-tailwind-boilerplate/blob/master/LICENSE.md)
 <!-- [
 [![Build Status](wip)](ghactions)
