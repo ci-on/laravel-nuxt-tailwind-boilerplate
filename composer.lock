@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9e7306ae724440a810b0fedfd627c1c",
+    "content-hash": "66ba90155eadf026d2fdd1edc2ed71b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -830,7 +830,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-04-28T08:47:37+00:00"
+            "time": "2020-05-31T07:30:16+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4566,16 +4566,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.1.2",
+            "version": "v5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "46a942903059b0b05e601f00eb64179e05578c0f"
+                "reference": "2ebe1c7bb52052624d6dc1250f4abe525655d75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/46a942903059b0b05e601f00eb64179e05578c0f",
-                "reference": "46a942903059b0b05e601f00eb64179e05578c0f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2ebe1c7bb52052624d6dc1250f4abe525655d75a",
+                "reference": "2ebe1c7bb52052624d6dc1250f4abe525655d75a",
                 "shasum": ""
             },
             "require": {
@@ -4652,7 +4652,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-30T20:35:19+00:00"
+            "time": "2020-06-24T13:36:18+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5864,16 +5864,16 @@
         },
         {
             "name": "laravel/telescope",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/telescope.git",
-                "reference": "2e44c32c4e0b2442b118e73116582d1236b621f5"
+                "reference": "a8d2e1106ba655006fde47a0b7ed53851c6398f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/telescope/zipball/2e44c32c4e0b2442b118e73116582d1236b621f5",
-                "reference": "2e44c32c4e0b2442b118e73116582d1236b621f5",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/a8d2e1106ba655006fde47a0b7ed53851c6398f5",
+                "reference": "a8d2e1106ba655006fde47a0b7ed53851c6398f5",
                 "shasum": ""
             },
             "require": {
@@ -5923,7 +5923,7 @@
                 "laravel",
                 "monitoring"
             ],
-            "time": "2020-05-14T14:45:32+00:00"
+            "time": "2020-07-28T19:12:33+00:00"
         },
         {
             "name": "mockery/mockery",
