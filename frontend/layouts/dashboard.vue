@@ -290,10 +290,7 @@ export default {
 
   methods: {
     async logout() {
-      await this.$axios.post('/logout')
-      this.$router.push({
-        path: '/login',
-      })
+      await this.$auth.logout()
     },
   },
 }
