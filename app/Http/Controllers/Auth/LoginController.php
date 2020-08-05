@@ -19,7 +19,8 @@ class LoginController extends Controller
         }
 
         return response()->json([
-            'error' => 'invalid_credentials',
-        ], 403);
+            'message' => 'invalid credentials or such user doesn\'t exist',
+            'error' => 'Unprocessable Entity (validation failed)',
+        ], 422);
     }
 }
