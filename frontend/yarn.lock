@@ -1161,16 +1161,16 @@
     lodash "^4.17.15"
     nanoid "^2.1.11"
 
-"@nuxtjs/axios@^5.12.0", "@nuxtjs/axios@^5.9.5":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.0.tgz#50692340e64ec838f167d292d59b1cc2a0e2dbef"
-  integrity sha512-VQI9Nnf12jWknldrgCNGzCQxnWO3/CvMwrkWKNUr3WtGYuOKryUOd1XXxDbaJmopfX4SGjKvDL1G6qTkWLiPew==
+"@nuxtjs/axios@^5.12.1", "@nuxtjs/axios@^5.9.5":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.1.tgz#e26f83bca926a135708deda258cd58b7dc1c958f"
+  integrity sha512-zRqCRN1Omp0aHZLbSlZTMH2i/2oafGJZbzBM1Aw0KzfwphofNJBIq0ue2k+fgbVXSX6fj53FNxL50sAwaGyAMA==
   dependencies:
-    "@nuxtjs/proxy" "^2.0.0"
+    "@nuxtjs/proxy" "^2.0.1"
     axios "^0.19.2"
     axios-retry "^3.1.8"
     consola "^2.14.0"
-    defu "^2.0.4"
+    defu "^3.1.0"
 
 "@nuxtjs/eslint-config@^3.0.0":
   version "3.0.0"
@@ -1194,7 +1194,7 @@
     consola "^2.11.3"
     eslint-loader "^4.0.2"
 
-"@nuxtjs/proxy@^2.0.0":
+"@nuxtjs/proxy@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/proxy/-/proxy-2.0.1.tgz#2469b6e316311aa8c60d348502a54bfe6d5536aa"
   integrity sha512-RVZ6iYeAuWteot9oer3vTDCOEiTwg37Mqf6yy8vPD0QQaw4z3ykgM++MzfUl85jM14+qNnODZj5EATRoCY009Q==
