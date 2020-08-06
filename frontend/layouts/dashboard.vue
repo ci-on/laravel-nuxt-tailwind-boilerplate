@@ -111,16 +111,16 @@
         </div>
         <div class="flex flex-col flex-1 h-0 overflow-y-auto">
           <nav class="flex-1 px-2 py-4 bg-gray-800">
-                        <nuxt-link
-                          v-for="(item, index) in items"
-                          :key="index"
-                          :to="item.to"
-                          class="flex items-center px-2 py-2 text-sm font-medium leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md group hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                          :class="item.classes"
-                        >
-<!--                          <component :is="item.logo" />-->
-                          {{ item.name }}
-                        </nuxt-link>
+            <nuxt-link
+              v-for="(item, index) in items"
+              :key="index"
+              :to="item.to"
+              class="flex items-center px-2 py-2 text-sm font-medium leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md group hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+              :class="item.classes"
+            >
+              <component :is="item.logo" />
+              {{ item.name }}
+            </nuxt-link>
           </nav>
         </div>
       </div>
@@ -265,9 +265,14 @@
 </template>
 
 <script>
+import DashboardLogo from '../components/DashboardLogo'
+
 export default {
   name: 'DashboardLayout',
-
+  components: {
+    DashboardLogo,
+  },
+  middleware: 'user',
   data() {
     return {
       showDropDown: false,
@@ -275,7 +280,7 @@ export default {
       items: [
         {
           name: 'Dashboard',
-          // logo: 'dashboard-logo',
+          logo: 'dashboard-logo',
           to: '/dashboard',
           classes: '',
         },
@@ -285,10 +290,7 @@ export default {
 
   methods: {
     async logout() {
-      await this.$axios.post('/logout')
-      this.$router.push({
-        path: '/login',
-      })
+      await this.$auth.logout()
     },
   },
 }
