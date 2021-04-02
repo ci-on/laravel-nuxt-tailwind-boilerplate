@@ -16,7 +16,7 @@
     "@nuxtjs/axios": "^5.12.1",
     "@tailwindcss/ui": "^0.5.0",
     "numeral": "^2.0.6",
-    "nuxt": "^2.14.3"
+    "nuxt": "^2.15.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
